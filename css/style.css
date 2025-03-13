@@ -29,3 +29,49 @@ body {
   color: #000;
   font-weight: bold;
 }
+
+#testimonials {
+  display: flex;
+  justify-content: center;
+}
+
+.testimonial-card {
+/* Set width and height of box */
+padding: 24px;
+height: auto;
+width:340px;
+border-width: 5px;
+background-color: #FFFFFF;
+/*Set display and positioning*/
+display: block;
+}
+.top-card {
+display: flex;
+margin-bottom: 16px;
+width: auto;
+border-width: 2px;
+}
+.profile-img {
+  padding-right: 16px;
+  width: 48px;
+  height:48px;
+}
+.name-block{
+  border-width: 2px;
+  width: 100%;
+  border-color: rgb(0, 255, 60);
+}
+.name-title {
+  font-size: 18px;
+  width: auto;
+  border-width: 2px;
+  border-color: rgb(72, 0, 255);
+}
+.name-tag {
+  font-size: 14px;
+  width: auto;
+  border-width: 2px;
+  border-color: red;
+}
+.bottom-card {
+}
