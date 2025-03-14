@@ -10,6 +10,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
+  background-image: linear-gradient(to bottom right, #F9FAFB, #D2D6DB);
 }
 
 * {
@@ -30,48 +31,48 @@ body {
   font-weight: bold;
 }
 
-#testimonials {
+#hero {
+  padding: 10%;
   display: flex;
   justify-content: center;
 }
-
 .testimonial-card {
-/* Set width and height of box */
 padding: 24px;
 height: auto;
 width:340px;
-border-width: 5px;
-background-color: #FFFFFF;
-/*Set display and positioning*/
-display: block;
+border-width: 1px;
+border-radius: 10px;
+background-color: #ffffff;
+box-shadow: #0000001f 0px 2px 3px;
 }
 .top-card {
 display: flex;
 margin-bottom: 16px;
 width: auto;
-border-width: 2px;
 }
 .profile-img {
-  padding-right: 16px;
-  width: 48px;
-  height:48px;
+  width: 60px;
+  height: 48px;
 }
 .name-block{
-  border-width: 2px;
+  padding-left: 16px;
+  height: auto;
   width: 100%;
-  border-color: rgb(0, 255, 60);
 }
 .name-title {
   font-size: 18px;
+  line-height: 28px;
+  color: #171717;
   width: auto;
-  border-width: 2px;
-  border-color: rgb(72, 0, 255);
+  font-family: 'Noto Sans';
 }
 .name-tag {
   font-size: 14px;
   width: auto;
-  border-width: 2px;
-  border-color: red;
+  line-height: 20px;
 }
+
 .bottom-card {
+  display: flex;
+  flex-wrap: wrap;
 }
