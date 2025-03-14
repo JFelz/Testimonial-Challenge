@@ -1,5 +1,5 @@
-/* Put any custom CSS styles here.  */
-/* Be sure to delete the <style> tag in index.html if you want to use this stylesheet. */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
 body {
   margin: 0;
   font-family: "Noto Sans", system-ui, -apple-system, BlinkMacSystemFont,
@@ -11,6 +11,11 @@ body {
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
   background-image: linear-gradient(to bottom right, #F9FAFB, #D2D6DB);
+}
+
+p {
+  margin: 0;
+  padding: 0;
 }
 
 * {
@@ -47,17 +52,12 @@ box-shadow: #0000001f 0px 2px 3px;
 }
 .top-card {
 display: flex;
-margin-bottom: 16px;
 width: auto;
-}
-.profile-img {
-  width: 60px;
-  height: 48px;
 }
 .name-block{
   padding-left: 16px;
-  height: auto;
   width: 100%;
+  height: 48px;
 }
 .name-title {
   font-size: 18px;
@@ -68,11 +68,16 @@ width: auto;
 }
 .name-tag {
   font-size: 14px;
+  padding: 0px;
+  margin: 0px;
   width: auto;
   line-height: 20px;
 }
 
 .bottom-card {
+  margin-top: 16px;
+  margin-bottom: 16px;
   display: flex;
   flex-wrap: wrap;
+  font-family: 'Noto Sans';
 }
