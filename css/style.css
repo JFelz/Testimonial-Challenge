@@ -14,7 +14,6 @@ body {
 p {
   margin: 0;
   padding: 0;
-  font-family: 'Noto Sans';
 }
 
 * {
@@ -65,8 +64,6 @@ width: auto;
   font-weight: 600;
 }
 .name-tag {
-  padding: 0px;
-  margin: 0px;
   width: auto;
   font-size: 14px;
   line-height: 20px;
