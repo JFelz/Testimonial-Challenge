@@ -1,0 +1,11 @@
+{
+  "name": "testimonial-challenge",
+  "version": "1.0.0",
+  "description": "",
+  "author": "jovanni feliz",
+  "main": "index.html",
+  "scripts": {},
+  "dependencies": {
+    "babel": "^6.23.0"
+  }
+}
