@@ -13,7 +13,8 @@
     />
     <link rel="stylesheet" href="./css/style.css" />
 
-    <link rel="icon" href="img/favicon.ico" sizes="any" />
+    <link rel="icon" href="img/favicon.ico" sizes="any" /> 
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" />
 
   </head>
   <body>
@@ -22,7 +23,10 @@
     <div class="testimonial-card">
       <div class="top-card">
         <div>
-          <img src="./img/profile-thumbnail.png" alt="profile-img" style="min-width: 48px; height: 48px;">
+          <picture>
+            <source type="image/webp" srcset="./img/profile-thumbnail.webp">
+            <img src="./img/profile-thumbnail.png" alt="profile-img" style="min-width: 48px; height: 48px;">
+          </picture>
         </div>
         <div class="name-block">
           <div class="name-title">
