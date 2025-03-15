@@ -7,5 +7,9 @@
   "scripts": {},
   "dependencies": {
     "babel": "^6.23.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.51.0",
+    "@types/node": "^22.13.10"
   }
 }
