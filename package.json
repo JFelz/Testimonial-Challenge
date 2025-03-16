@@ -6,7 +6,9 @@
   "main": "index.html",
   "scripts": {},
   "dependencies": {
-    "babel": "^6.23.0"
+    "babel": "^6.23.0",
+    "core-js": "^3.41.0",
+    "regenerator-runtime": "^0.14.1"
   },
   "devDependencies": {
     "@playwright/test": "^1.51.0",
